@@ -5,7 +5,7 @@
 }
 
 :root {
-  --bg-color: #121214;
+  --bg-color: white;
   --base-color: 194;
   --bg-primary-light: hsla(var(--base-color), 100%, 63%, 0.13);
   --primary-color: hsl(var(--base-color), 100%, 63%);
@@ -25,8 +25,10 @@ body {
 }
 
 main {
-  justify-self: center;
+  justify-self: center;          
   align-self: end;
+  display: flex;
+  gap: 19.2rem;
 }
 
 button {
@@ -45,6 +47,8 @@ button img {
 }
 
 .timer {
+  margin-top: 6rem;
+  color: #323238;
   font-size: 8.8rem;
 
   display: flex;
@@ -52,7 +56,6 @@ button img {
 }
 
 .functions {
-  background-color: var(--bg-primary-light);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,7 +63,23 @@ button img {
 
   width: clamp(10rem, 10rem + 30vw, 22.8rem);
   height: clamp(8rem, 5rem + 10vh, 10.8rem);
-  border-radius: 9999px;
+}
+
+.environment {
+  width: 30.8rem;
+  height: 33.6rem;
+}
+
+.environment button {
+  width: 13.8rem;
+  height: 15.2rem;
+  border-radius: 2rem;
+  background-color: #E1E1E6;
+  margin: 6px;
+}
+
+.environment button:hover {
+  background-color: #02799D;
 }
 
 footer {

@@ -51,6 +51,10 @@ function updateMinutes(newMinutes) {
   minutes = newMinutes
 }
 
+// function moreMinutes() {
+//   minutes + 5
+// }
+
 function hold() {
   clearTimeout(timerTimeOut)
 }
@@ -60,7 +64,8 @@ function hold() {
     reset,
     updateDisplay,
     updateMinutes,
-    hold
+    hold,
+    // moreMinutes
   }
 }
 
