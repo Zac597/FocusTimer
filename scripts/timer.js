@@ -59,13 +59,25 @@ function hold() {
   clearTimeout(timerTimeOut)
 }
 
+function moreMinutes() {
+  minutes += 5
+  reset()
+}
+
+function anyLess() {
+  minutes >= 5 ? minutes -= 5 : minutes = 0
+  reset()
+}
+
+
   return {
     coutdown,
     reset,
     updateDisplay,
     updateMinutes,
     hold,
-    // moreMinutes
+    moreMinutes,
+    anyLess
   }
 }
 

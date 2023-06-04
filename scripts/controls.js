@@ -33,21 +33,12 @@ function getMinutes() {
   return newMinutes
 }
 
-function moreMinutes() {
-let newMinutes = newMinutes + 5
-if (!newMinutes) {
-  return false
-}
-  return newMinutes
-}
-
 
 return {
   reset,
   play,
   pause,
   getMinutes,
-  moreMinutes
 }
 
 }

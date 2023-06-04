@@ -129,3 +129,15 @@ Rain.addEventListener('click',() => {
   sound.audioFogo.pause()
 
 }) 
+
+moreMinutes.addEventListener('click', () => {
+  controls.reset()
+  timer.moreMinutes()
+  sound.pressButton()
+})
+
+anyLess.addEventListener('click', () => {
+  controls.reset()
+  timer.anyLess()
+  sound.pressButton()
+})
