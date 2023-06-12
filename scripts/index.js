@@ -98,35 +98,35 @@ anyLess.addEventListener('click', () => {
 // Fundos
 
 Forest.addEventListener('click',() => {
-  body.style.backgroundColor='#016D55';
-  sound.audioForest.play()
-  sound.audioFogo.pause()
-  sound.audioCommerce.pause()
-  sound.audioChuva.pause()
+  body.style.backgroundImage='url(../assets/imgs/tokyo.jpg)';
+  sound.audioTokyo.play()
+  sound.audioOp.pause()
+  sound.audioNaruto.pause()
+  sound.audioSao.pause()
 }) 
 
 Fire.addEventListener('click',() => {
-  body.style.backgroundColor='#F4A84D';
-  sound.audioFogo.play()
-  sound.audioForest.pause()
-  sound.audioCommerce.pause()
-  sound.audioChuva.pause()
+  body.style.backgroundImage='url(../assets/imgs/onepiece.jpg)';
+  sound.audioOp.play()
+  sound.audioTokyo.pause()
+  sound.audioNaruto.pause()
+  sound.audioSao.pause()
 }) 
 
 Commerce.addEventListener('click',() => {
-  body.style.backgroundColor='#CEC1B0';
-  sound.audioCommerce.play()
-  sound.audioForest.pause()
-  sound.audioFogo.pause()
-  sound.audioChuva.pause()
+  body.style.backgroundImage='url(../assets/imgs/naruto.jpg)';
+  sound.audioNaruto.play()
+  sound.audioTokyo.pause()
+  sound.audioOp.pause()
+  sound.audioSao.pause()
 }) 
 
 Rain.addEventListener('click',() => {
-  body.style.backgroundColor='#C6D7DA';
-  sound.audioChuva.play()
-  sound.audioForest.pause()
-  sound.audioCommerce.pause()
-  sound.audioFogo.pause()
+  body.style.backgroundImage='url(../assets/imgs/sao.jpg)';
+  sound.audioSao.play()
+  sound.audioTokyo.pause()
+  sound.audioNaruto.pause()
+  sound.audioOp.pause()
 
 }) 
 

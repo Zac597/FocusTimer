@@ -7,6 +7,10 @@ export default function() {
   const audioChuva = new Audio ("../assets/sounds/Chuva.wav?raw=true")
   const audioCommerce = new Audio("../assets/sounds/Cafeteria.wav?raw=true")
   const audioFogo = new Audio ("../assets/sounds/Lareira.wav?raw=true")
+  const audioTokyo = new Audio ("../assets/sounds/unravel.mp3")
+  const audioNaruto = new Audio ("../assets/sounds/sadness-naruto.mp3")
+  const audioSao = new Audio ("../assets/sounds/crossing-field.mp3")
+  const audioOp = new Audio ("../assets/sounds/binks-sake.mp3")
 
   bgAudio.loop = true
   audioForest.loop = true
@@ -31,7 +35,10 @@ export default function() {
       audioForest,
       audioChuva,
       audioCommerce,
-      audioFogo
-
+      audioFogo,
+      audioOp,
+      audioNaruto,
+      audioSao,
+      audioTokyo
     }
 }

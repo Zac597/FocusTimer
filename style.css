@@ -15,6 +15,7 @@
 }
 
 body {
+  background-image:none;
   background-color: var(--bg-color);
   color: var(--text-color);
 
@@ -48,7 +49,7 @@ button img {
 
 .timer {
   margin-top: 6rem;
-  color: #323238;
+  color: black;
   font-size: 8.8rem;
 
   display: flex;
